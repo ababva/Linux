@@ -21,7 +21,8 @@ exit — завершает работу программы.
 # ls(self):
 Выводит список файлов и папок в текущей директории.
 Фильтрует файлы, которые находятся в текущей папке (self.current_path), и возвращает только имена тех файлов, которые непосредственно в ней, игнорируя поддиректории.
-![image](https://github.com/user-attachments/assets/c0d086dc-bf79-4746-858d-bc51f4d1db8a)
+![image](https://github.com/user-attachments/assets/c3c33e95-0250-4912-9d4a-a870f01f1d22)
+
 
 
 # cd(self, path):
