@@ -69,4 +69,4 @@ python emulator.py <имя_пользователя> <путь_к_zip_файлу
 # Ссылка на гитхабД
 https://github.com/ababva/Linux/
 # GitClone
-git clone /github.com/ababva/Linux/
+'''git clone /github.com/ababva/Linux/'''
