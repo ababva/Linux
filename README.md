@@ -21,26 +21,30 @@ exit — завершает работу программы.
 # ls(self):
 Выводит список файлов и папок в текущей директории.
 Фильтрует файлы, которые находятся в текущей папке (self.current_path), и возвращает только имена тех файлов, которые непосредственно в ней, игнорируя поддиректории.
-![image](https://github.com/user-attachments/assets/c3c33e95-0250-4912-9d4a-a870f01f1d22)
+![image](https://github.com/user-attachments/assets/bd3173fb-ca76-4c8d-b1a4-2b64a344c430)
+
 
 
 
 # cd(self, path):
 Меняет текущую директорию на новую.
 Добавляет переданный путь path к текущему пути и обновляет self.current_path. Если путь относительный, он добавляется к текущему, если абсолютный — замещает текущий путь.
-![image](https://github.com/user-attachments/assets/0cfcac68-90a2-4475-bcaa-e78e4fd0f792)
+![image](https://github.com/user-attachments/assets/f33b0400-dcc7-424f-8048-c5fc2e13bdfc)
+
 
 
 uptime(self):
 Возвращает время, прошедшее с момента запуска программы.
 Рассчитывает это время, используя разницу между текущим временем и временем запуска, сохраненным в self.start_time.
-![image](https://github.com/user-attachments/assets/82777e27-2d9f-45bc-8916-ff641f2ee83d)
+![image](https://github.com/user-attachments/assets/230d5645-086d-4624-a929-a40af679abe4)
+
 
 
 # whoami(self, username):
 Возвращает имя пользователя, переданное программе при запуске.
 Просто возвращает значение переменной username, переданной в качестве аргумента.
-![image](https://github.com/user-attachments/assets/f534d7b1-e757-4a38-b5e2-0cbd84d66302)
+![image](https://github.com/user-attachments/assets/32cfc952-c1d1-4882-81ec-a48c255d1121)
+
 
 
 # main():
